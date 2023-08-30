@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Shop.com</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu-container">
+            <a href="index.html">
+                <img src="logo.png" alt="Shop"  class="img">
+            </a>
+            <p class="text">shop.com<i class="arrow down"></i></p>
+            <button class="dashboard"><img src="icon.png" alt="Dashboard" class="icon">Dashboard</button>
+            <div class="management-container">
+                <p class="menu-text">Management</p>
+                <p class="item" id="active">Overview<i class="arrow right"></i></p>
+                <p class="item">Statistics<i class="arrow right"></i></p>
+                <p class="item">Files<i class="arrow right"></i></p>
+                <p class="item">Logs<i class="arrow right"></i></p>
+                <p class="item">Settings<i class="arrow right"></i></p>
+                <p class="item">Email<i class="arrow right"></i></p>
+                <p class="underline"></p>
+            </div>
+            <div class="finance-container">
+                <p class="menu-text">Finance</p>
+                <p class="item">Sales<i class="arrow right"></i></p>
+                <p class="item">Transactions<i class="arrow right"></i></p>
+                <p class="item">Transfer<i class="arrow right"></i></p>
+                <p class="item">Manage<i class="arrow right"></i></p>
+                <p class="underline"></p>
+            </div>
+            <div class="customer-container">
+                <p class="menu-text">Customer</p>
+                <p class="item">Accounts<i class="arrow right"></i></p>
+                <p class="item">Roles<i class="arrow right"></i></p>
+                <p class="item">Manage<i class="arrow right"></i></p>
+                <p class="item">Maintenance<i class="arrow right"></i></p>
+                <p class="underline"></p>
+            </div>
+            <p class="credits">Larssies @ <a href="http://larssies.com/">Larssies.com</a></p>
+        </div>
+        <div class="overview-container">
+            <div class="title-container">
+                <h1 class="overview">Overview</h1>
+                <img src="profile.png" alt="Profile" class="profile">
+                <p class="text">Administrator<i class="arrow down"></i></p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <h2 class="title">Sales</h2>
+                    <h1 class="amount">134.000</h1>
+                    <p class="track" id="sales">📈 28.8 %</p>
+                    <button class="stats"><img src="sales.png" alt="Sales" class="img"></button>
+                </div>
+                <div class="card">
+                    <h2 class="title">New Users</h2>
+                    <h1 class="amount">194</h1>
+                    <p class="track" id="users">📉 -1.5 %</p>
+                    <button class="stats"><img src="user.png" alt="Users" class="img"></button>
+                </div>
+                <div class="card">
+                    <h2 class="title">Emails</h2>
+                    <h1 class="amount">364</h1>
+                    <p class="track" id="emails">📈 17.4 %</p>
+                    <button class="stats"><img src="email.png" alt="Email" class="img"></button>
+                </div>
+            </div>
+            <div class="weekly-container">
+                <div class="income">
+                    <div class="card">
+                        <h1 class="title">Weekly Profit</h1>
+                        <img src="weekly-profit.png" alt="Monthly" class="img">
+                    </div>
+                    <div class="card">
+                        <h1 class="title">Monthly Profit</h1>
+                        <img src="profit-monthly.png" alt="Monthly" class="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
